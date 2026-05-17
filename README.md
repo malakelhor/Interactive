@@ -1,5 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# ✨ Interactive 3D Particles
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A real-time 3D particle system that reacts to your mouse movement. Built with Three.js and TypeScript.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Demo
+
+> Run locally to see it in action (see instructions below)
+
+## Features
+
+- 🖱️ Particles respond to mouse position in real time
+- 🌐 Full 3D scene rendered in the browser
+- ⚡ Smooth, high-performance animation loop
+- 🎨 Visually satisfying interactive experience
+
+## Tech Stack
+
+- **Three.js** — 3D rendering and particle system
+- **TypeScript** — typed, maintainable codebase
+- **Vite** — fast dev server and bundler
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) and move your mouse around.
+
+## How It Works
+
+Each particle in the scene tracks and reacts to the mouse cursor's position using raycasting and vector math, creating a fluid, interactive 3D effect entirely in the browser with no backend required.
